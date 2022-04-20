@@ -1,0 +1,23 @@
+{
+    "name": "m3u8 downloader",
+    "description": "m3u8 downloader",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "webRequest",
+        "tabs",
+        "downloads",
+        "downloads.open",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "devtools_page": "devtools.html"
+}
