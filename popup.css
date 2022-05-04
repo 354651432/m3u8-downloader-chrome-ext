@@ -1,9 +1,21 @@
 body {
     min-height: 100px;
-    width: 552px;
+    width: 752px;
+
 }
 
 ul>li {
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    padding: 0;
+
+}
+
+ul>li>a {
+    display: inline-block;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
